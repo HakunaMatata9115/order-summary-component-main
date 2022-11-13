@@ -67,8 +67,102 @@ p {
 }
 
 /* Component */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: var(--color-pale-blue);
+}
 
+.component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 335px;
+  height: auto;
+  border-radius: 20px;
+  background-color: white;
+}
 
+.main-ilustration {
+  max-width: 335px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.description {
+  max-width: 270px;
+  text-align: center;
+  line-height: 1.5rem;
+  color: var(--color-desaturated-blue);
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 70px;
+  background-color: var(--color-very-pale-blue);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.icon-music {
+  margin-right: 15px;
+}
+
+.price-plan {
+  margin-right: 45px;
+  line-height: 0.4rem;
+}
+
+h3 {
+  font-size: var(--font-medium);
+}
+
+.price {
+  font-size: var(--font-medium);
+  color: var(--color-desaturated-blue);
+}
+
+a {
+  font-size: var(--font-medium);
+  text-decoration: underline;
+  color: var(--color-bright-blue);
+  font-weight: var(--weight-medium);
+}
+
+#payment {
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 45px;
+  color: white;
+  background-color: var(--color-bright-blue);
+  font-size: 15px;
+  font-weight: var(--weight-bold);
+  margin-bottom: 20px;
+}
+
+#cancel-order {
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 45px;
+  color: var(--color-desaturated-blue);
+  background-color: white;
+  font-size: 15px;
+  font-weight: var(--weight-bold);
+  margin-bottom: 20px;
+}
 
 /* >=1440 (Desktop) */
 @media screen and (min-width:1440px) {}
