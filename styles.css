@@ -185,4 +185,18 @@ a:hover {
 }
 
 /* >=1440 (Desktop) */
-@media screen and (min-width:1440px) {}
+@media screen and (min-width:1280px) {
+
+  /* Component */
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+
+  h1 {
+    padding: 10px;
+  }
+
+  .description {
+    max-width: 300px;
+  }
+}
