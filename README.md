@@ -19,7 +19,7 @@
 
 Users should be able to:
 
-- See hover states for interactive elements
+✅ See hover states for interactive elements
 
 ### Screenshot
 
@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/order-summary-component-6sySCVA8pU)
+- Live Site URL: [live site URL here](https://hyeyoung-lucia.github.io/order-summary-component-main/)
 
 ## My process
 
